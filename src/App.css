@@ -1,0 +1,124 @@
+/*Main.js style*/
+ul.ul-style li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.ul-style {
+  background-color: rgb(26, 199, 199);
+  padding: 0;
+  text-align: center; 
+  font-size: 20px;
+}
+
+ul.ul-style li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+ /* margin-left: auto;
+  margin-right: auto;*/
+}
+
+.active {
+  background-color: rgb(100, 8, 112);
+}
+
+.login-button {
+  text-decoration: none;
+  border: 1px;
+  border-radius: 6px;
+  float: right;
+  margin-right: 100px;
+  margin-left: -150px;
+  background-color: rgb(33, 228, 33);
+}
+/*Main.js style ends here*/
+
+/*Chatinput.js style*/
+footer {
+  color: white;
+  position: fixed;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;
+}
+footer .input-field input,
+button {
+  border-color: rgb(252, 252, 252);
+}
+.chip {
+  font-style: italic;
+}
+
+.post-editor {
+  margin: 1em 20%;
+}
+
+.post-editor-button {
+  float: right;
+  margin-top: 1em;
+}
+
+.txt-area {
+  resize: none;
+  width: 85%;
+  height: 60px;
+  margin-left: 50px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 2px solid rgb(107, 109, 109);
+  background-color: rgb(223, 255, 255);
+
+}
+
+.button {
+  background-color: rgb(62, 202, 81);
+  border: none;
+  margin-top: 4px;
+  margin-right: 50px;
+  float: right;
+  cursor: pointer;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/*Chatinput.js style ends here*/
+
+.collection {
+  margin-bottom:130px;
+  margin-top: 100px;
+ }
+ .message-date {
+   color: #585858;
+ }
+ body {
+   background: #EEEEEE;
+ }
+
+/*Signin.js style*/
+.app-bar {
+  margin-top: -20px;
+}
+/*Signin.js style ends here*/
+
+/*Home.js style*/
+.desc {
+  text-align: center;
+  font-size: 18px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.home-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
