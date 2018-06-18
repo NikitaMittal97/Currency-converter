@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import Avatar from 'material-ui/Avatar';
 import ChatInput from './ChatInput';
 
-
 export default class ChatHistory extends React.Component{
     
     static propTypes = {
